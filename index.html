@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html >
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan" rel="stylesheet">
+
 <head>
   <meta charset="UTF-8">
   <title>Wikipedia API</title>
@@ -12,20 +14,32 @@
 </head>
 
 <body>
-  <div class="container">
- <h1>Wikipedia API Search</h1>
- <h4>
-  FCC Front-End</h4>
- <a href ="https://en.wikipedia.org/wiki/Special:Random" target="blank">
-  <img src="http://res.cloudinary.com/mers/image/upload/c_scale,w_200/v1503348584/2000px-Wikipedia-logo-v2-en.svg_lgb07w.png">
-   
+  <div class="container" style="text-align:center">
+<center> <h1>Wikipedia API Search</h1>
+ <h4>FCC Front-End</h4>
+<img src="http://res.cloudinary.com/mers/image/upload/c_scale,w_200/v1503348584/2000px-Wikipedia-logo-v2-en.svg_lgb07w.png">
+ <nav class="cl-effect-1">
+ <a class="cl-effect-1" href ="https://en.wikipedia.org/wiki/Special:Random" target="blank">
+  <br>
+
+ Random Wiki Search
+  </br>
   </a>
- 
- <input class = "form-control" id="searchTerm">
- <button id="search" type="button" class="btn btn-primary"> Submit </button>
+ <br>
+ <div class="row">
+  <div class="col-md-3" align="right">
+ Wiki Search
+  </div>
+ <div class="col-md-3" align="center">
+ <input class = "form-control" id="searchTerm" >
+   </div>
+<div class="col-md-3" align="left">
+ <button id="search" type="button" class="button button1"> Submit </button> </center>
  <ul id= "output">
  </ul>
-
+ </div>
+</div>
+ </center>
  
 </div>
   <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
