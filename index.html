@@ -109,35 +109,61 @@ a:active {
 
   </style>
 
-<body>
-  <div class="container" style="text-align:center">
+<div class="container-fluid">
 <center> <h1>Wikipedia API Search</h1>
  <h4>FCC Front-End</h4>
 <img src="http://res.cloudinary.com/mers/image/upload/c_scale,w_200/v1503348584/2000px-Wikipedia-logo-v2-en.svg_lgb07w.png">
- <br><nav class="cl-effect-1">
+ <br><h4><nav class="cl-effect-1">
  <a class="cl-effect-1" href ="https://en.wikipedia.org/wiki/Special:Random" target="blank">
   
 
  Random Wiki Search
   
-  </a></br>
+  </a></br></h4>
  <br>
- <div class="row">
-  <div class="col-md-3" align="right">
- Wiki Search
-  </div>
- <div class="col-md-3" align="center">
- <input class = "form-control" id="searchTerm" >
-   </div>
-<div class="col-md-3" align="left">
- <button id="search" type="button" class="button button1"> Submit </button> </center>
- <ul id= "output">
- </ul>
- </div>
-</div>
- </center>
+ </br>
  
-</div>
+ 
+ 
+  
+<div class="container">
+ <div class= "row row-centered" >
+  <form>
+      <div class="col-md-2 col-xs-12 col-centered"><font size="4" color="black">
+      Wiki Search</h4>
+    </div>
+   
+   <div class="col-md-2 col-xs-12 col-centered">
+        <input class="form-control" id="searchTerm" type="text" placeholder="Enter Search...">
+      </div>
+   
+   <div class="col-md-2 col-xs-12 col-centered">
+ <button id="search" type="button" class="button button1"> Submit </button> 
+ <ul id= "output">
+ </ul> 
+      </div>
+   
+    </div>
+  
+  
+	<div>
+		<div class="div1"><form>
+     <font size="4" color="black">
+       Wiki Search</h4>
+		</div>
+  
+  
+		<div class="div2"><input class="form-control" id="searchTerm" type="text" placeholder="Enter Search...">
+		</div>
+  
+  
+		<div class="div3"> <button id="search" type="button" class="button button1"> Submit </button> 
+ <ul id= "output">
+ </ul> 
+		</div>
+	</div>
+ </div>
+   
   <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
 <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 
