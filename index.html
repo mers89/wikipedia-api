@@ -13,11 +13,6 @@
   
 </head>
   <style>
-    body{
- font-family: 'Baloo Bhaijaan', cursive;
- color: #6749a4
-
-}
 
 a {
     color: #6749a4;
@@ -34,7 +29,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: #6749a4;
+    color: #000;
 }
 
 /* selected link */
@@ -43,19 +38,23 @@ a:active {
 }
 
 .button {
-    background-color: #9a6df5; /* purple */
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-  text-transform: uppercase;
+ {
+padding: 10px 20px 11px !important;
+font-size: 21px !important;
+background-color: #9a6df5;
+font-weight: bold;
+text-shadow: 1px 1px #F36C8C;
+color: #ffffff;
+border-radius: 100px;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+border: 1px solid #F36C8C;
+cursor: pointer;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+ 
 }
 
 .button1 {
@@ -107,6 +106,48 @@ a:active {
 }
 
 
+
+
+
+.centerDiv
+	{
+		width: 60%;
+		height:200px;
+		margin: 0 auto;
+	
+	}
+	.div1
+	{
+		width: 33%;
+		height:200px;
+		float:left;
+	}
+	.div2
+	{
+		width: 34%;
+		height:200px;
+		float:left;
+	}
+	.div2
+	{
+		width: 33%;
+		height:200px;
+		float:left;
+	}
+
+
+/* centered columns styles */
+.row-centered {
+text-align:center;
+}
+.col-centered {
+display:inline-block;
+float:none;
+/* reset the text-align */
+text-align:left;
+/* inline-block space fix */
+margin-right:-4px;
+}
   </style>
 
 <div class="container-fluid">
